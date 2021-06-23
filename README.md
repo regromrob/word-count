@@ -1,7 +1,6 @@
 # Project Title
 Word Count
-
-
+<img width="399" alt="Screen Shot 2021-06-22 at 10 29 11 PM" src="https://user-images.githubusercontent.com/78179566/123027361-b5544800-d3ab-11eb-8e12-1aa431a32ef4.png">
 
 ## Description
 
