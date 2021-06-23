@@ -20,10 +20,9 @@
       id="words"
       cols="30"
       rows="10"
-      oninput="handleInputChange(this.value)"
     ></textarea>
-    <button class="submitButton btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="handleButtonClick()">
-      Click To Get Text Stats
+    <button class="submitButton btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="handleButtonClick()">
+    Get Text Stats
     </button>
 
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -36,19 +35,19 @@
           <div class="modal-body">
             <table class="table table-sm">
               <tr>
-                <td>Character</td> <!--character count-->
+                <td>Character</td> 
                 <td class="charCount">0</td>
               </tr>
               <tr>
-                <td>Words</td> <!--word count-->
+                <td>Words</td> 
                 <td class="wordCount">0</td>
               </tr>
               <tr>
-                <td>Sentences</td> <!--sentence count-->
+                <td>Sentences</td>
                 <td class="sentenceCount">0</td>
               </tr>
               <tr>
-                <td>Paragraphs</td> <!--paragraph count-->
+                <td>Paragraphs</td> 
                 <td class="paraCount">0</td>
               </tr>
               <tr>
@@ -69,34 +68,10 @@
                 <td class="hireMe">0</td>
               </tr>
             </table>
-            <!-- <div>
-              <span>Characters</span>
-              <span>10</span>
-            </div>
-            <div>
-              <span>Words</span>
-              <span>10</span>
-            </div>
-            <div>
-              <span>Sentences</span>
-            </div>
-            <div>
-              <span>Paragraphs</span>
-            </div>
-            <div>
-              <span>Bigrams</span>
-            </div>
-            <div>
-              <span>Repeated Words</span>
-            </div>
-            <div>
-              <span>Identical First Words</span>
-            </div> -->
-
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-primary" data-bs-dismiss='modal'>Got It</button>
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-light" data-bs-dismiss='modal'>Got It</button>
           </div>
         </div>
       </div>

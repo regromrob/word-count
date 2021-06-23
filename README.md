@@ -1,6 +1,7 @@
 # Project Title
-
 Word Count
+
+
 
 ## Description
 
@@ -35,10 +36,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Regina Robinson
 
 ## Version History
 
@@ -47,10 +45,6 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
     * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
