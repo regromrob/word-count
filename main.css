@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pageTextArea{
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.submitButton{
+  border-radius: 20px;
+}
+
+.modal-body{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+span{
+  border-bottom: 1px solid grey;
+  margin-left: 3rem;
+  
+}
